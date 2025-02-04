@@ -18,10 +18,10 @@ let order = {
     totalAmount: 150,
     status: "Processing",
     displayOrder: function() {
-        console.log("Task 2")       //Logged the order details with this
-        console.log(`   Order Id: ${this.orderId}`);
-        console.log(`   Total Amount: ${this.totalAmount}`);
-        console.log(`   Status: ${this.status}`);
+    console.log("Task 2")       //Logged the order details with this
+    console.log("Order ID: ", this.orderId);
+    console.log("Total Amount: ", this.totalAmount);
+    console.log("Status:", this.status);
     }
 }
     //Call the method
