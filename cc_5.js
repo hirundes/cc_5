@@ -109,4 +109,4 @@ let saleAmount = 100
 let Points = calculatePoints(saleAmount);
     //Logged "Task 10" and Points Returned
 console.log("Task 10");
-console.log("   Points Returned:", Points);
+console.log("   Points Returned:", Points); 
