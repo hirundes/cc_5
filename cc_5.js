@@ -7,9 +7,9 @@ let customer = {
 } 
     //Logged each property with console.log and template literal
 console.log("Task 1")       
-console.log(`   Customer Name: ${customer.name}`)
-console.log(`   Customer Age: ${customer.age}`)
-console.log(`   Customer Email: ${customer.email}`)
+console.log(`   Customer Name: ${customer.name}`);
+console.log(`   Customer Age: ${customer.age}`);
+console.log(`   Customer Email: ${customer.email}`);
 
 //Task 2 - Order Details
     //Declared object order with properties 
@@ -19,9 +19,9 @@ let order = {
     status: "Processing",
     displayOrder: function() {
         console.log("Task 2")       //Logged the order details with this
-        console.log(`   Order Id: ${this.orderId}`)
-        console.log(`   Total Amount: ${this.totalAmount}`)
-        console.log(`   Status: ${this.status}`)
+        console.log(`   Order Id: ${this.orderId}`);
+        console.log(`   Total Amount: ${this.totalAmount}`);
+        console.log(`   Status: ${this.status}`);
     }
 }
     //Call the method
@@ -39,7 +39,22 @@ cartItems.unshift("Fritos");
     //Removed the first item Fritos with .shift()
 cartItems.shift();
     //Logged cartItems
+console.log("Task 3");
 console.log(cartItems);
+
+//Task 4 - Price Adjustments
+    //Declared array price
+let price = [100, 200, 300];
+    //Used .map to apply 10% discount to price
+let discountPrice = price.map(price => price * 0.9)
+    //logged "Task 4" and discountPrice
+console.log("Task 4")
+console.log(discountPrice)
+
+
+
+
+
 
 
 
