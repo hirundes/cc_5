@@ -46,10 +46,10 @@ console.log(cartItems);
     //Declared array price
 let price = [100, 200, 300];
     //Used .map to apply 10% discount to price
-let discountPrice = price.map(price => price * 0.9)
-    //logged "Task 4" and discountPrice
+let discountedPrice = price.map(price => price * 0.9)
+    //logged "Task 4" and discountedPrice
 console.log("Task 4");
-console.log(discountPrice);
+console.log(discountedPrice);
 
 //Task 5 - Product Availability
     //Declared array inventory
@@ -69,12 +69,43 @@ let totalRevenue = sales.reduce((total, sale) => total + sale, 0);
 console.log("Task 6")
 console.log(totalRevenue);
 
+//Task 7 - Customer Search
+    //Declared array customers
+let customers = ["Alice", "Bob", "Charlie", "David"];
+    //Used .find to locate Charlie
+let found = customers.find(customer => customer === "Charlie");
+    //Logged "Task 7" and found
+console.log(found);
+    //Used .find to locate "Charlie" 
 
+//Task 8 - Tax Calculation
+    //Declared function calculateTax
+function calculateTax(amount, taxRate) {
+    return amount * taxRate;
+}
+    //Defining amount, tax rate
+let amount = 100 
+let taxRate = 0.10
+    //Defining taxAmount w/calculateTax
+let taxAmount = calculateTax(amount, taxRate); 
+    //Logged "Task8" and Tax Amount with a template literal
+console.log("Task 8")
+console.log(`   Tax Amount: $${taxAmount}`);
 
+//Task 9 - Discount Application
+    //Declared a function expression applyDiscount
+let applyDiscount = function(prices, discount) {
+    return prices * 0.10
+};
+    //Logged "Task 9" and Discounted Price
+console.log("Task 9");
+console.log("   Discounted Price", applyDiscount(500)); 
 
-
-
-
-
-
-
+//Task 10 - Loyalty Points
+    //Arrow function calculatePoints
+const calculatePoints = (purchaseAmount) =>  purchaseAmount * 0.1
+let saleAmount = 100
+let Points = calculatePoints(saleAmount);
+    //Logged "Task 10" and Points Returned
+console.log("Task 10");
+console.log("   Points Returned:", Points);
