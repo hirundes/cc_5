@@ -60,6 +60,17 @@ let filteredInventory = inventory.filter(inventory => inventory > 0);
 console.log("Task 5");
 console.log(filteredInventory);
 
+//Task 6 - Revenue Calculation
+    //Declared array sales
+let sales = [500, 300, 200, 400];
+    //Used .reduce to calculate total revenue
+let totalRevenue = sales.reduce((total, sale) => total + sale, 0);
+    //Logged "Task 6" and totalRevenue
+console.log("Task 6")
+console.log(totalRevenue);
+
+
+
 
 
 
