@@ -93,7 +93,7 @@ console.log("Task 8")
 console.log(`   Tax Amount: $${taxAmount}`);
 
 //Task 9 - Discount Application
-    //Declared a function expression applyDiscount
+    //Declared a function expression applyDiscount to apply 10 percent
 let applyDiscount = function(prices, discount) {
     return prices * 0.10
 };
