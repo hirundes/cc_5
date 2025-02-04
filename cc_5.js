@@ -88,7 +88,7 @@ let amount = 100
 let taxRate = 0.10
     //Defining taxAmount w/calculateTax
 let taxAmount = calculateTax(amount, taxRate); 
-    //Logged "Task8" and Tax Amount with a template literal
+    //Logged "Task 8" and Tax Amount with a template literal
 console.log("Task 8")
 console.log(`   Tax Amount: $${taxAmount}`);
 
