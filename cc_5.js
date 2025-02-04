@@ -48,8 +48,17 @@ let price = [100, 200, 300];
     //Used .map to apply 10% discount to price
 let discountPrice = price.map(price => price * 0.9)
     //logged "Task 4" and discountPrice
-console.log("Task 4")
-console.log(discountPrice)
+console.log("Task 4");
+console.log(discountPrice);
+
+//Task 5 - Product Availability
+    //Declared array inventory
+let inventory = [15, 0, 4, 0, 6];
+    //Used .filter to filter out zero stock
+let filteredInventory = inventory.filter(inventory => inventory > 0);
+    //Logged "Task 5" and filtered inventory
+console.log("Task 5");
+console.log(filteredInventory);
 
 
 
