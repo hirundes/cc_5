@@ -27,3 +27,19 @@ let order = {
     //Call the method
 order.displayOrder();
 
+//Task 3 - Shopping Cart
+    //Declared array cartItems
+let cartItems = ["Lays", "Doritos", "Cheetos"];
+    //Added Takis with .push() at the end
+cartItems.push("Takis");
+    //Removed the last item Takis with .pop()
+cartItems.pop();
+    //Added Fritos to the beginning with .unshift
+cartItems.unshift("Fritos");
+    //Removed the first item Fritos with .shift()
+cartItems.shift();
+    //Logged cartItems
+console.log(cartItems);
+
+
+
