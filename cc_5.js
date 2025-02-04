@@ -75,7 +75,8 @@ let customers = ["Alice", "Bob", "Charlie", "David"];
     //Used .find to locate Charlie
 let found = customers.find(customer => customer === "Charlie");
     //Logged "Task 7" and found
-console.log(found);
+console.log("Task 7")
+console.log(found); 
     //Used .find to locate "Charlie" 
 
 //Task 8 - Tax Calculation
