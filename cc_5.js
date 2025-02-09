@@ -67,7 +67,7 @@ let sales = [500, 300, 200, 400];
 let totalRevenue = sales.reduce((total, sale) => total + sale, 0);
     //Logged "Task 6" and totalRevenue
 console.log("Task 6")
-console.log(totalRevenue);
+console.log(`   Total Revenue: $${totalRevenue}`);
 
 //Task 7 - Customer Search
     //Declared array customers
