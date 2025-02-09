@@ -100,7 +100,7 @@ let applyDiscount = function(prices, discount) {
 };
     //Logged "Task 9" and Discounted Price
 console.log("Task 9");
-console.log("   Discounted Price", applyDiscount(500)); 
+console.log(`Discounted Price: $${applyDiscount(500)}`)  
 
 //Task 10 - Loyalty Points
     //Arrow function calculatePoints to return 1 points per $10
